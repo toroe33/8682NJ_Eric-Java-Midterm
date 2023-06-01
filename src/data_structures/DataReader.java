@@ -24,7 +24,18 @@ public class DataReader {
       String filePath = userDir+ File.separator + "/src/data_structures/data/" + "self-driving-car";
       File txtFile = new File(filePath);
         
-        
+      try {
+          FileReader fr = new FileReader(txtFile);
+          BufferedReader br = new BufferedReader(fr);
+
+          String line;
+
+          while ((line = br.readLine()) != null) {
+              System.out.println(line);
+          }
+      } catch (IOException ioe) {
+          ioe.printStackTrace();
+      }
 
     }
 
