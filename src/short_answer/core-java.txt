@@ -1,52 +1,67 @@
 ***ANSWER ALL OF THE QUESTIONS BELOW***
 
 What is a programming language?
-Answer:
+Answer:A set of grammatical rules for instructing a computer to perform specific tasks.
 
 What is a JDK composed of? Define each components?
-Answer:
+Answer:JDK is composed of Java Runtime Enviroment(JRE), An interpreter/loader (Java), a compiler(javac) and an archiver(jar).
 
 What is an IDE?
-Answer:
+Answer:Integrated Development Enviroment is a software application that enables users to write and debug Java programs more easily.
 
 What are some of the most popular Java IDEs available in the market?
-Answer:
+Answer:IntelliJ IDEA, Eclipse, NetBeans, Blue J, JDeveloper, JCreator
 
 Explain the entire java life cycle.
 Answer:
+Life cycle of a java program tells us what happens right from the point when we type source code
+in a text editor to the point that source code is converted into machine code(0's and 1's). There are
+three main stages in the life cycle of a java program. They are editing the program, compiling the source code,
+and executing the byte code.
 
 What is a class?
-Answer:
+Answer: A logical template to create objects that share common properties and methods.
 
 What is an object?
-Answer:
+Answer: An object is an instance of a Java class, meaning it is a copy of specific class.
 
 What is the entry point of a Java project?
-Answer:
+Answer: The Java main method is ususally the first method you learn about when you start programming
+in Java because its the entry point for executing a Java program. The main method can contain code
+to execute or call other methods and it can be placed in any class that's part of a program.
 
 Why is the main() method static?
-Answer:
+Answer: So that JVM can invoke it without instantiating the class.
 
 Which class is the superclass of all classes?
-Answer:
+Answer: Parent class
 
 What is difference between path and classpath variables?
-Answer:
+Answer: Path is set for Java tools in Java programs which are used to compile your code. Classpath
+is used by System or Application class leader to locate and load compile Java bytecodes stored in the
+'. class file'.
 
 What is the difference between an Interface and Abstract class?
-Answer:
+Answer: Abstract class can have can have abstract and non-abstract methods. Interface can have only
+abstract methods.
 
 Can you make an Object from an Interface and Abstract class? If yes or no, how would you do it?
-Answer:
+Answer: It cannot be done. To implement features of an abstract class, we inherit subclasses from it and create objects
+of the subclass. A subclass must override all abstract methods of an abstract class.
 
 What is Access Modifier?
-Answer:
+Answer: Keywords in object-oriented languages that set the accessibility of classes, methods, and
+other members. Access modifiers are a specific part of programming language syntax used to facilitate
+the encapsulation of components.
 
 What is OOP? Define each OOP concept.
-Answer:
+Answer:Object-Oriented Programming. Abstraction - identifying only the required characteristics of an
+object ignoring the irrevlevant details. Encapsulation - Hiding/wrapping data. Inheritance - It is
+the mechanism in Java by which one class is allowed to inherit the features(fields and methods) of
+another class. Polymorphism - performs a single action in different ways.
 
 What is Java Package and which package is imported by default?
-Answer:
+Answer: Package is the collection of Java classes and interfaces. java.lang
 
 What is an API? List some API's that you have used so far.
 Answer:
