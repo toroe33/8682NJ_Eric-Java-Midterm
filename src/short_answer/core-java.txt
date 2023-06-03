@@ -183,28 +183,33 @@ What is constructor chaining in Java?
 Answer: The process of invoking a sequence of constructors upon initialization of a class object.
 
 The difference between Serial and Parallel Garbage Collector?
-Answer:
+Answer: Serial garbage collector uses a single thread for garbage collection process while the
+parallel garbage collector uses multiple threads for the garbage collection.
 
 What does JIT stands for?
-Answer:
+Answer: Just-In-Time
 
 Explain the process of Java garbage collection?
-Answer:
+Answer: Java garbage collection is the process by which Java programs perform automatic memory
+management.
 
 Can you guarantee the garbage collection process?
-Answer:
+Answer: No you can't.
 
 What is the difference between stack and heap in Java?
-Answer:
+Answer: Stack is used to store the order of method execution and local variables while Heap memory
+stores the objects.
 
 What is reflection in Java and why is it useful?
-Answer:
+Answer: It allows an executing Java program to examine or "introspect" upon itself, and manipulate internal properties
+of the program. Reflection giives us information about the class to which an object belongs and also the methods of
+that class which can be executed by using the object.
 
 What is multithreading in Java?
-Answer:
+Answer: Multithreading refers to a process of executing two or more threads simultaneously.
 
 What is synchronization in Java?
-Answer:
+Answer: The capablility to control the access of multiple threads to any shared resource.
 
 What is a Framework?
 Answer:
