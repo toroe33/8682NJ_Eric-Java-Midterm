@@ -49,7 +49,8 @@ linked together to represent or simulate hierarchy. its a non-linear data struct
 in a sequential manner.
 
 Describe what a graph data structure is?
-Answer:
+Answer: its a non-linear data structure consisting of vertices also called nodes and edges. each vertex
+is connected to another vertex using links called edges.
 
 What is the difference between the HashTable and HashMap?
 Answer:
