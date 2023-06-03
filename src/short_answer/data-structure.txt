@@ -34,16 +34,19 @@ Answer: FIFO is a method for handling data structures where the first element is
 the newest element is processed last. LIFO is the opposite FIFO, LIFO is last in first out.
 
 Explain Big O Notation?
-Answer:
+Answer: it's a way to measure an algorithm's efficiency. it measures the time it takes to run a function
+as the input grows
 
 What is the best case to search an element from an array?
-Answer:
+Answer: when the element is found at the beginning of the array
 
 What is the worst case to search an element from an array?
-Answer:
+Answer: when the search item appears at the end of the list or not at all.
 
 Describe what a tree data structure is?
-Answer:
+Answer: a tree data structure is defined as a collection of objects or entities known as nodes that are
+linked together to represent or simulate hierarchy. its a non-linear data structure because it doesnt store
+in a sequential manner.
 
 Describe what a graph data structure is?
 Answer:
