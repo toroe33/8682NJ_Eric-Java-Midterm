@@ -64,16 +64,24 @@ What is Java Package and which package is imported by default?
 Answer: Package is the collection of Java classes and interfaces. java.lang
 
 What is an API? List some API's that you have used so far.
-Answer:
+Answer: Application Programming Interface set of functions that allows applications to access data
+and interact with external software components and operating software. I've used XML and JSON thus far.
 
 Does java support multiple inheritance? Why or why not?
-Answer:
+Answer: No it does not in order to prevent ambiguity.
 
 What is method overloading? List all of the different ways to overload.
-Answer:
+Answer: Method overloading is if a class has multiple methods having the same name but different
+in parameters.
+- The number of parameters in two methods.
+- The data types of the parameters of methods.
+- The order of the parameters of methods.
 
 Explain exceptions in java and how to handle them.
-Answer:
+Answer: The try-catch is the simplest method of handling exceptions. Put the code you want to run
+in the try block, and any Java exceptions that the code throws are caught by one or more catch blocks.
+This method will catch any type of Java exceptions that get thrown. This is the simplest mechanism
+for handling exceptions.
 
 What is static keyword? When and how do we use it?
 Answer:
