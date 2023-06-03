@@ -212,19 +212,29 @@ What is synchronization in Java?
 Answer: The capablility to control the access of multiple threads to any shared resource.
 
 What is a Framework?
-Answer:
+Answer: A framework is a structure that you can build software on.
 
 What are the testing Frameworks available in Java?
-Answer:
+Answer: JUnit, JBehave, Selenium, Serenity, TestNG
 
 What are jUnit and testNG?
-Answer:
+Answer: Testing framework in Java
 
 What are the dependencies for this project?
-Answer:
+Answer: gson - 2.6.2. jar
+jackson-annotations - 2.11.3.jar
+jackson-core-2.11.3.jar
+jackson-databind-2.11.3.jar
+java-json.jar
+javax.json-1.0.jar
+mongo-java-driver-3.4.0.jar
+mysql-connector-java-8.0.28.jar
+protobuf-java-3.11.4.jar
+testng-6.8.7.jar
 
 What is dependency injection in Java?
-Answer:
+Answer: The concept in which objects get other required objects from outside.
 
 Explain what static binding and dynamic binding is?
-Answer:
+Answer: Static binding uses Type information for binding while Dynamic binding uses Objects to
+resolve binding.
