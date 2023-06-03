@@ -158,25 +158,29 @@ What is Singleton class?
 Answer: A class that can have only one object at a time.
 
 What is Serialization and Deserialization?
-Answer:
+Answer: Serialization is a mechanism of converting the state of an object into a byte stream.
+Deserialization is the reverse process where the byte stream is used to recreate the actual Java
+object in memory.
 
 Explain the difference between While and Do..While loops?
-Answer:
+Answer: While a condition is true and only while the condition is true, loop will continue looping.
+Do while executes the loop first, and then checks the condition to see if it should continue looping.
 
 What is Enum?
-Answer:
+Answer: An enum is a special "class" that represents a group of constants
 
 What is Iterator?
-Answer:
+Answer: An iterator is an object that can be used to loop through collections.
 
 Which one will take more memory: an int or Integer? Why?
-Answer:
+Answer: An integer will take more memory as it is an object whereas int is a primitive data type
+and takes less memory.
 
 Why are Strings considered to be immutable in Java?
-Answer:
+Answer: The string is Immutable in Java because string objects are cached in the string pool.
 
 What is constructor chaining in Java?
-Answer:
+Answer: The process of invoking a sequence of constructors upon initialization of a class object.
 
 The difference between Serial and Parallel Garbage Collector?
 Answer:
