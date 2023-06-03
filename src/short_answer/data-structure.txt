@@ -20,16 +20,18 @@ What is a LinkedList?
 Answer: Ordered collection that contains many objects of the same type.
 
 How is an Array different from LinkedList?
-Answer:
+Answer: An array is a collection of elements of a similiar data type. A linked list is a collection
+of objects known as a node where node consists of two parts.
 
 What is a Queue?
-Answer:
+Answer: Queue is a collection of orderded objects.
 
 What is a Stack (referring to data structures)?
-Answer:
+Answer: A linear data structure which follows a particular order in which the operations are performed.
 
 What is FIFO and LIFO?
-Answer:
+Answer: FIFO is a method for handling data structures where the first element is processed first and
+the newest element is processed last. LIFO is the opposite FIFO, LIFO is last in first out.
 
 Explain Big O Notation?
 Answer:
