@@ -101,37 +101,43 @@ Finalize - It is a method that the garbage collector always calls just before th
 of the object which is eligible for garbage collection, to perform clean-up activity.
 
 What is a constructor?
-Answer:
+Answer: A constructor is used to create an object.
 
 Can we have multiple constructors in a class?
-Answer:
+Answer: Yes
 
 If we don't have a constructor declared, what is called during the object creation?
-Answer:
+Answer: The Class
 
 What is "this" keyword in Java? When would we use it?
-Answer:
+Answer: "this" is used to refer to the object whose method  or constructor is being called.
+"this" is to eliminate the confusion between class attributes and parameters with the same name.
 
 What is "super" keyword in Java? What are some scenarios we would use it?
-Answer:
+Answer: The "super" keyword refers to superclass(parent) objects. It is used to call superclass methods,
+and to access the superclass constructor. We would use it to eliminate the confusion between
+supperclasses and subclasses that have methods with the same name.
 
 What does JVM stand for?
-Answer:
+Answer: Java Virtual Machine
 
 Is JVM platform independent?
-Answer:
+Answer: No it is not
 
 What version of Java are you using?
-Answer:
+Answer: 17.0.7
 
 What does JAR stand for?
-Answer:
+Answer: Java Archive
 
 What is the difference between JDK and JVM?
-Answer:
+Answer: JDK is a software development kit to develop applications in Java. JVM executes Java byte
+code and provides an enviroment for executing it.
 
 What is the difference between JVM and JRE?
-Answer:
+Answer: JRE identifies all the helpful class libraries needed for execution, while JVM is a subclass
+of JRE that decodes the bytecode into machine language and other minor tasks. JVM and JRE do not participate
+in development processes like debugging and compiling; JDK is used for them.
 
 Explain the difference between compile-time and run-time?
 Answer:
