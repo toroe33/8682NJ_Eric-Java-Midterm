@@ -140,19 +140,22 @@ of JRE that decodes the bytecode into machine language and other minor tasks. JV
 in development processes like debugging and compiling; JDK is used for them.
 
 Explain the difference between compile-time and run-time?
-Answer:
+Answer: Compile time errors are the errors that occured when we write the wrong syntax.
+Run-time errors are the errors that occur during the execution and after the compilation.
 
 What is heap?
-Answer:
+Answer: Heap is the memory used to store objects.
 
 How does Java manage its memory?
-Answer:
+Answer: Heap and Stack
 
 What is the difference between String, StringBuffer and StringBuilder?
-Answer:
+Answer: String is immutable whereas StringBuffer and StringBuilder are mutable classes. StringBuffer
+is thread-safe and synchronized whereas StringBuilder is not. That's why StringBuilder is faster than
+StringBuffer.
 
 What is Singleton class?
-Answer:
+Answer: A class that can have only one object at a time.
 
 What is Serialization and Deserialization?
 Answer:
