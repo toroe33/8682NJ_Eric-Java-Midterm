@@ -53,16 +53,20 @@ Answer: its a non-linear data structure consisting of vertices also called nodes
 is connected to another vertex using links called edges.
 
 What is the difference between the HashTable and HashMap?
-Answer:
+Answer: HashMap is non synchronized whereas HashTable is synchronized. HashTable is thread safe and can be shared
+between multiple threads but HashMap cant be shared between multiple threads without proper synchronization.
 
 How do HashMaps work in Java? How do they store values, and when are they useful?
-Answer:
+Answer:It provides the basic implementation of the Map interface of Java. it stores the data in
+(key, value) pairs, and you can access them by an index of another type.
 
 What is ArrayIndexOutOfBoundsException in java? When does it occur?
-Answer:
+Answer:whenever we are trying to access any item of an array at an index which is not present in the array
+
 
 What are the different ways of copying an array into another array?
-Answer:
+Answer:using variable assignment, create a new array of the same length and copy each element,
+use the clone method of the array
 
 What is DFS and BFS?
 Answer:
