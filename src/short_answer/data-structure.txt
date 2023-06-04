@@ -69,13 +69,25 @@ Answer:using variable assignment, create a new array of the same length and copy
 use the clone method of the array
 
 What is DFS and BFS?
-Answer:
+Answer:DFS: Depth Fist Search- uses stack to find the shortest path
+BFS: Breadth Fist Search- uses a Queue to find the shortest path
 
 What is Recursion?
-Answer:
+Answer: the process in which a funcion calls itself directly or indirectly
 
 What are linear and non-linear data Structures?
-Answer:
+Answer:linear data structures have elements arranged sequentially
+non linear data structures have complex relationships between elements
 
 Outline different sorting algorithms and their time complexities:
 
+    Best        Avg         Worst
+Selection Sort	Ω(n^2)	    θ(n^2)	    O(n^2)
+Bubble Sort 	Ω(n)	    θ(n^2)	    O(n^2)
+Insertion Sort	Ω(n)	    θ(n^2)	    O(n^2)
+Heap Sort	    Ω(n log(n))	θ(n log(n))	O(n log(n))
+Quick Sort	    Ω(n log(n))	θ(n log(n))	O(n^2)
+Merge Sort	    Ω(n log(n))	θ(n log(n))	O(n log(n))
+Bucket Sort     Ω(n+k)	    θ(n+k)	    O(n^2)
+Radix Sort	    Ω(nk)	    θ(nk)	    O(nk)
+Count Sort      Ω(n+k)	    θ(n+k)	    O(n+k)
